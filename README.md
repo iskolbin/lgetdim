@@ -35,12 +35,13 @@ img.png	10	10
 ```
 
 Available format options:
-	* **$w** -- width
-	* **$h** -- height
-	* **$t** -- type
-	* **$T** -- uppercased type
-	* **$p** -- path
-	* **$P** -- uppercased type
-	* **$$** -- dollar sign
-	* **$tab** -- tabulation
-	* **$newline** -- newline
+
+- **$w** -- width
+- **$h** -- height
+- **$t** -- type
+- **$T** -- uppercased type
+- **$p** -- path
+- **$P** -- uppercased type
+- **$$** -- dollar sign
+- **$tab** -- tabulation
+- **$newline** -- newline
