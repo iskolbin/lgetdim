@@ -100,8 +100,8 @@ local function collect( format, w, h, t, path )
 	local result = format:gsub( '$(%w+)', { 
 		w = w,
 		h = h,
-		t = t,
-		p = path,
+		t = t:lower(),
+		p = path:lower(),
 		T = t:upper(),
 		P = t:upper(),
 		tab = '\t',
