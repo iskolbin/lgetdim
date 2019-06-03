@@ -144,6 +144,7 @@ original code http://www.java-gaming.org/index.php?topic=21438.0]] )
 	end
 
 	local w, h, t, err = getdim( path )
+	w, h = math.floor( w ), math.floor( h )
 	if err then
 		io.write( err )
 	else
